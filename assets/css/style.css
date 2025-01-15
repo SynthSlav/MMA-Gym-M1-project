@@ -6,8 +6,9 @@
 :root {
     --primary-font: "Poppins", Arial, Verdana, sans-serif;
     --secondary-font: "Bebas Neue", Impact, Arial Black, sans-serif;
-    --primary-color: #777;
+    --primary-color: #252525;
     --secondary-color: #d0987f;
+    --primary-highlight-color: #777;
 
 
 }
@@ -18,6 +19,15 @@ body{
 
 h1 {
     font-family: "Bebas Neue";
+}
+
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+
+}
+#navbar .logo {
+    width: 40px;
 }
 
 
