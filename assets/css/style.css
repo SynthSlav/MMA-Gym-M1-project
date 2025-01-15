@@ -57,9 +57,27 @@ a.btn-outline:hover {
 }
 
 /* Footer */
+footer{
+    background-color: var(--primary-color);
+    color:white;
+}
+#fnav-links a{
+    text-decoration: none;
+    color: white;
+}
 
+#fnav-links a:hover{
+    text-decoration: none;
+    color: #d0987f;
+}
 
-
+#icons a{
+    margin: 0 20px;
+    color: white;
+}
+#icons a:hover {
+    color: var(--secondary-color);
+}
 
 /* Media queries */
 
