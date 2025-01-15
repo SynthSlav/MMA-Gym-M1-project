@@ -12,13 +12,18 @@
 
 
 }
-
-body{
+/* Global styling */
+body, h1{
     font-family: "Poppins", sans-serif;
 }
 
-h1 {
+h3 {
     font-family: "Bebas Neue";
+}
+
+.section {
+   margin-top: 2rem;
+   margin-bottom: 2rem; 
 }
 
 /* Navbar */
@@ -30,5 +35,42 @@ h1 {
     width: 40px;
 }
 
+/* Header */
+#intro-header {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.carousel-item > img {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+.btn-outline {
+    border: 2px solid var(--secondary-color);
+    background-color: transparent;
+    color: white;
+
+}
+
+a.btn-outline:hover {
+    background-color: var(--secondary-color);
+}
 
 /* Footer */
+
+
+
+
+/* Media queries */
+
+@media screen and (min-width: 1200px) {
+    .head-wrap {
+        margin-top: 3rem;
+    }
+    #intro-header p {
+        margin-top: 2rem;
+    }
+    #intro-header a {
+        margin-top: 2rem;
+    }
+}
