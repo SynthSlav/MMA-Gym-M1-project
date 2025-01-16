@@ -109,8 +109,23 @@ footer{
     padding-top: 135px;
     padding-bottom: 135px;
 }
+.section-about2 {
+    padding-bottom: 135px;
+}
 .section-about .row {
     color: var(--primary-highlight-color);
+}
+/* Intentional blur as the images are pulled from google image search. */
+.about-imgs {
+    margin: 0;
+    padding: 0;
+}
+.about-imgs img{
+    filter: blur(1px);
+}
+.about-imgs div {
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 hr .about-hr {
