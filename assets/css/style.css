@@ -135,6 +135,25 @@ hr .about-hr {
     width: 50px;
     margin: 0 auto;
 }
+/* Testimonials - About.html  */
+#testimonials {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+#testimonials img {
+    border: 6px solid var(--secondary-color);
+    width: 25%;
+    height: 25%;
+    margin: 0 auto;
+}
+#testimonials .card-body {
+    min-height: 340px;
+}
+#testimonials .card-footer {
+    margin-top: 2rem;
+}
 
 /* Media queries */
 
@@ -147,6 +166,17 @@ hr .about-hr {
         margin-top: 2rem;
     }
     #intro-header a {
+        margin-top: 2rem;
+    }
+    #testimonials img {
+        width: 30%;
+        height: 30%;
+        margin: 0 auto;
+    }
+    #testimonials .card-body {
+        min-height: 343px;
+    }
+    #testimonials .card-footer {
         margin-top: 2rem;
     }
 }
