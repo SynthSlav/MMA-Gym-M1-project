@@ -42,6 +42,9 @@ h3 {
 #navbar .logo {
     width: 40px;
 }
+#navbar .active {
+    color: var(--secondary-color) !important;
+}
 
 /* Header */
 #intro-header {
@@ -155,6 +158,19 @@ hr .about-hr {
     margin-top: 2rem;
 }
 
+/* Classes styles */
+
+.class-landing {
+    background-image: url("../images/classes-landing.webp");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    position:relative;
+}
+
 /* Media queries */
 
 @media screen and (min-width: 1200px) {
@@ -181,9 +197,16 @@ hr .about-hr {
     }
 }
 
+@media screen and (min-width: 768px) {
+
+}
+
 @media screen and (min-width: 576px) {
     /* query on paralax for small screens */
     #about-landing {
+        background-attachment: scroll;
+    }
+    .class-landing {
         background-attachment: scroll;
     }
 }
