@@ -25,14 +25,16 @@ h3 {
    margin-top: 2rem;
    margin-bottom: 2rem; 
 }
-.hr-line {
+hr {
     display: block;
-    width: 48px;
+    width: 10%;
     height: 6px;
     margin: 0 auto;
-    background-color: #c96b40;
+    background-color: var(--secondary-color);
     border: none;
+    opacity: 1;
 }
+
 
 /* Navbar */
 #navbar {
@@ -131,13 +133,6 @@ footer{
     padding-right: 10px;
 }
 
-hr .about-hr {
-    border: 0;
-    height: 6px;
-    background: var(--secondary-color);
-    width: 50px;
-    margin: 0 auto;
-}
 /* Testimonials - About.html  */
 #testimonials {
     margin-left: 25px;
@@ -160,15 +155,30 @@ hr .about-hr {
 
 /* Classes styles */
 
-.class-landing {
-    background-image: url("../images/classes-landing.webp");
+#class-landing {
+    background-image: url("../images/classes-landing1.webp");
     min-height: 500px; 
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     position:relative;
+}
+#class-landing div {
+    color: white;
+    height: 100px;
+    padding-top: 200px;
+	padding-bottom: 150px;
+}
+.classes-section {
+    margin-top: 135px;
+    margin-bottom: 135px;
+}
+
+.class-card {
+
 }
 
 /* Media queries */
