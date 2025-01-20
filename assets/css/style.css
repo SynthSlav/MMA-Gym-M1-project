@@ -177,8 +177,16 @@ footer{
     margin-bottom: 135px;
 }
 
-.class-card {
-
+.classes-section .card-body {
+    border: none;
+    background-color: var(--secondary-color);
+    color: white;
+}
+.classes-section .card-img-top {
+    height: 188px;
+}
+.classes-section .card {
+    margin-top: 1.5rem;
 }
 
 /* Media queries */
