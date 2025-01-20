@@ -47,6 +47,13 @@ hr {
 #navbar .active {
     color: var(--secondary-color) !important;
 }
+#navbar a {
+    color: white;
+}
+
+#navbar a:hover {
+    color: #d0987f;
+}
 
 /* Header */
 #intro-header {
@@ -173,8 +180,12 @@ footer{
 	padding-bottom: 150px;
 }
 .classes-section {
-    margin-top: 135px;
-    margin-bottom: 135px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#cl-text h1 p{
+    background-color: black;
+    color: #d0987f;
 }
 
 .classes-section .card-body {
@@ -187,6 +198,16 @@ footer{
 }
 .classes-section .card {
     margin-top: 1.5rem;
+}
+#class-contact {
+    background-color: #d0987f;
+    color: white;
+    padding: 50px 0;
+    margin-bottom: 0;
+}
+#class-contact button {
+    border: none;
+    background-color: white;
 }
 
 /* Media queries */
