@@ -207,7 +207,58 @@ footer{
 }
 #class-contact button {
     border: none;
+    background-color: white !important;
+    color: var(--primary-color) !important;
+}
+#class-contact a:hover {
+    border: none;
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+/* Coaches styles */
+#coach-landing {
+    background-image: url("../images/coaches-landing.webp");
+    min-height: 500px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    position:relative;
+    padding-top: 66px;
+}
+
+
+#coach-landing div {
+    color: white;
+    height: 100px;
+    padding-top: 200px;
+	padding-bottom: 150px;
+}
+
+#coach-intro {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 25px 0;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#coach-intro hr {
+    margin-top: 20px;
+    display: block;
+    width: 10%;
+    height: 6px;
+    margin: 0 auto;
     background-color: white;
+    border: none;
+    opacity: 1;
+}
+
+#coach-intro .row {
+    padding: 0 30px;
 }
 
 /* Media queries */
