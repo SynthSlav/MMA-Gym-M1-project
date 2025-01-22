@@ -13,6 +13,9 @@
 
 }
 /* Global styling */
+body {
+    height: 100%;
+}
 body, h1{
     font-family: "Poppins", sans-serif;
     background-color: #a3a0a0;
@@ -288,17 +291,51 @@ footer{
 }
 
 /* Contact us page */
+#contact-landing {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 50px 0;
+}
+#contact-landing hr {
+    background-color: white;
+}
+#form-table button {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#form-table button:hover {
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#thank-you a {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#thank-you a:hover {
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
 /* Opening times */
 /* used * uni selector to target all elements of the table */
 .open-times .table *{
     background-color: transparent;
 }
+
 /* Sign up form (copied code) removal of up and down spinners*/
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
 /* for Firefox */
 input[type="number"] {
     -moz-appearance: textfield;
@@ -308,6 +345,12 @@ input[type="number"] {
 #price-table .table *{
     background-color: transparent;
 }
+
+/* Map styles */
+#map {
+    margin-top: 100px;
+}
+
 /* Media queries */
 
 @media screen and (min-width: 1200px) {
