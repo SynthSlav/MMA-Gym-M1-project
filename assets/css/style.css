@@ -289,11 +289,9 @@ footer{
 
 /* Contact us page */
 /* Opening times */
-#contact-us h5+.open-times {
-    margin-top: 25px;
-}
-.open-times {
-    display: inline-block;
+/* used * uni selector to target all elements of the table */
+.open-times .table *{
+    background-color: transparent;
 }
 /* Sign up form (copied code) removal of up and down spinners*/
 input[type="number"]::-webkit-inner-spin-button,
@@ -307,8 +305,8 @@ input[type="number"] {
 }
 
 /* Pricing Table */
-#price-table table {
-    width: 100%;
+#price-table .table *{
+    background-color: transparent;
 }
 /* Media queries */
 
@@ -335,6 +333,7 @@ input[type="number"] {
         margin-top: 2rem;
     }
 }
+
 
 @media screen and (min-width: 768px) {
 

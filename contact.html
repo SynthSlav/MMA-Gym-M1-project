@@ -64,7 +64,7 @@
         <section>
           <div class="container">
             <div class="row mt-4">
-              <div class="col-12 col-lg-6 col-xl-6 d-flex flex-column align-items-center">
+              <div id="form-table" class="col-12 col-lg-6 col-xl-6 d-flex flex-column align-items-center">
                 <!-- Collapsed form -->
                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#freetrial-form" aria-expanded="false" aria-controls="freetrial-form">
                   Sign up for your free trial today!
@@ -93,7 +93,8 @@
                 </div>
               </form>
               <div class="col-12 col-lg-6 col-xl-6 mt-4 d-flex flex-column align-items-center">
-                <table id="price-table" class="table table-hover table-bordered border-dark">
+                <div id="price-table">
+                <table class=" table table-dark">
                   <thead>
                     <tr>
                       <th scope="col">Package</th>
@@ -131,17 +132,40 @@
                 </table>
               </div>
             </div>
+            </div>
               
               <div id="contact-us" class="col-12 col-lg-6 col-xl-6 d-flex flex-column align-items-center">
-                <hr>
-                <h1>Contacts</h1>
-                <h6>Join the best gym in our town</h4>
                   <h4 class="text-center">Address: Vagabond MMA Ltd 8 Market Hall St, Cannock WS11 1EB <br>Call us on 07512 345678</h4>
-                <h5>We are operating on:</h5>
+                <h5 class="pt-2">We are operating on:</h5>
                 <div class="open-times">
-                  <dl class="times-inline">
-
-                  </dl>
+                  <div class="row">
+                    <table class="table table-dark">
+                      <thead>
+                        <tr>
+                          <th scope="col">Day/s</th>
+                          <th scope="col">Open</th>
+                          <th scope="col">Close</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Monday-Friday</th>
+                          <td>07:00</td>
+                          <td>21:00</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Saturday</th>
+                          <td>08:00</td>
+                          <td>17:00</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Sunday</th>
+                          <td>09:00</td>
+                          <td>12:00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
