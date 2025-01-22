@@ -286,6 +286,30 @@ footer{
 #coaches p {
     margin-bottom: 20px;
 }
+
+/* Contact us page */
+/* Opening times */
+#contact-us h5+.open-times {
+    margin-top: 25px;
+}
+.open-times {
+    display: inline-block;
+}
+/* Sign up form (copied code) removal of up and down spinners*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* for Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Pricing Table */
+#price-table table {
+    width: 100%;
+}
 /* Media queries */
 
 @media screen and (min-width: 1200px) {
