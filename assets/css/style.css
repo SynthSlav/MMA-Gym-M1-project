@@ -9,13 +9,13 @@
     --primary-color: #252525;
     --secondary-color: #d0987f;
     --primary-highlight-color: #777;
-
-
+    --table-color-one: #d0987f;
+    --table-color-two: #feac4d;
+    --table-color-three: #fcd769;
+    --table-color-four: #464a52;
+    --table-color-five: #252525;
 }
 /* Global styling */
-body {
-    height: 100%;
-}
 body, h1{
     font-family: "Poppins", sans-serif;
     background-color: #a3a0a0;
@@ -57,7 +57,7 @@ hr {
 }
 
 #navbar a:hover {
-    color: #d0987f;
+    color: var(--secondary-color);
 }
 
 /* Header */
@@ -297,7 +297,7 @@ footer{
     padding: 50px 0;
 }
 #contact-landing hr {
-    background-color: white;
+    background-color: var(--primary-color)
 }
 #form-table button {
     border: 2px solid var(--secondary-color);
@@ -350,6 +350,24 @@ input[type="number"] {
 #map {
     margin-top: 100px;
 }
+
+/* Succesifull submission of the form wouldnt have propper vh on lg and xl screens hence the styling */
+#thank-you {
+    min-height: 55vh;
+}
+
+/* Schedule */
+#schedule-landing {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 50px 0;
+}
+
+#schedule-landing hr {
+    background-color: var(--primary-color)
+}
+/* Timetable styles */
+
 
 /* Media queries */
 
