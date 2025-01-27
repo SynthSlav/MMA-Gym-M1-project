@@ -104,6 +104,24 @@ footer{
 #icons a:hover {
     color: var(--secondary-color);
 }
+
+/* Home */
+#classes-ql {
+    background-color: white;
+    margin: 100px 0;
+}
+#classes-ql .card {
+    height: 290px;
+}
+#classes-ql .card-body {
+    border: none;
+    background-color: var(--secondary-color);
+    color: white;
+}
+#classes-ql .card-img-top {
+    height: 188px;
+}
+
 /* About */
 /* landing styles */
 #about-landing {
