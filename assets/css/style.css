@@ -217,19 +217,18 @@ footer{
 .section-about .row {
     color: var(--primary-highlight-color);
 }
-/* Intentional blur as the images are pulled from google image search. */
-.about-imgs {
+.section-about2 .row{
     margin: 0;
     padding: 0;
 }
-.about-imgs img{
-    filter: blur(1px);
+.section-about2 .col {
+    margin-top: 20px;
 }
-.about-imgs div {
-    padding-left: 20px;
-    padding-right: 10px;
-}
+.section-about2 img {
+    width: 100%;
+    max-width: 100%;
 
+}
 /* Testimonials - About.html  */
 #testimonials {
     margin-left: 25px;
@@ -528,11 +527,6 @@ input[type="number"] {
     #testimonials .card-footer {
         margin-top: 2rem;
     }
-}
-
-
-@media screen and (min-width: 768px) {
-
 }
 
 @media screen and (min-width: 576px) {
