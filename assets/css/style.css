@@ -74,7 +74,7 @@ hr {
     border: 2px solid var(--secondary-color);
     background-color: transparent;
     color: white;
-
+    border-radius: 0;
 }
 
 a.btn-outline:hover {
@@ -91,7 +91,6 @@ footer{
     text-decoration: none;
     color: white;
 }
-
 #fnav-links a:hover{
     text-decoration: none;
     color: #d0987f;
@@ -99,7 +98,6 @@ footer{
 #fnav-links .row {
     margin-right: 0;
 }
-
 #icons a{
     margin: 0 20px;
     color: white;
@@ -215,7 +213,7 @@ footer{
     padding-bottom: 135px;
 }
 .section-about .row {
-    color: var(--primary-highlight-color);
+    color: white;
 }
 .section-about2 .row{
     margin: 0;
@@ -245,7 +243,7 @@ footer{
     border: 6px solid var(--secondary-color);
     width: 25%;
     height: 25%;
-    margin: 12px auto;
+    margin: 18px auto;
 }
 #testimonials .card-body {
     min-height: 340px;
@@ -277,8 +275,6 @@ footer{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
-
 .classes-section .card-body {
     border: none;
     background-color: var(--secondary-color);
@@ -289,6 +285,7 @@ footer{
 }
 .classes-section .card {
     margin-top: 1.5rem;
+    border: none;
 }
 #contact-footer {
     background-color:var(--secondary-color);
@@ -305,7 +302,6 @@ footer{
     background-color: var(--primary-color) !important;
     color: white !important;
 }
-
 #contact-footer hr {
     margin-top: 20px;
     display: block;
@@ -329,15 +325,12 @@ footer{
     margin: 0;
     position:relative;
 }
-
-
 #coach-landing div {
     color: white;
     height: 100px;
     padding-top: 200px;
 	padding-bottom: 150px;
 }
-
 #coach-intro {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -345,7 +338,6 @@ footer{
     background-color: var(--secondary-color);
     color: white;
 }
-
 #coach-intro hr {
     margin-top: 20px;
     display: block;
@@ -360,7 +352,9 @@ footer{
 #coach-intro .row {
     padding: 0 30px;
 }
-
+#coaches {
+    background-color: white;
+}
 #coaches .card {
     border: none !important;
 }
@@ -519,7 +513,7 @@ input[type="number"] {
     #testimonials img {
         width: 30%;
         height: 30%;
-        margin: 0 auto;
+        margin: 15px auto;
     }
     #testimonials .card-body {
         min-height: 343px;
