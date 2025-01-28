@@ -96,6 +96,9 @@ footer{
     text-decoration: none;
     color: #d0987f;
 }
+#fnav-links .row {
+    margin-right: 0;
+}
 
 #icons a{
     margin: 0 20px;
@@ -541,4 +544,11 @@ input[type="number"] {
         background-attachment: scroll;
     }
 }
-    
+
+@media screen and (max-width: 576px) {
+    /* icons on footer */
+    #icons a {
+        /* wouldnt apply unless !important was set */
+        margin: 0 20px !important;
+    }
+}
