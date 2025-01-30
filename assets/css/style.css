@@ -293,6 +293,14 @@ footer{
     margin-top: 1.5rem;
     border: none;
 }
+/* code for arrow down (intuitive design to make the user click on the class to open description) taken inspiration from google/stack overflow */
+h2 .fa-chevron-down {
+    transition: transform 0.3s ease-in-out;
+}
+h2[aria-expanded = "true"] .fa-chevron-down {
+    transform: rotate(90deg);
+}
+/* end of arrow */
 #contact-footer {
     background-color:var(--secondary-color);
     color: white;
