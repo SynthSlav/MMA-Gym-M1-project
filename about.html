@@ -20,6 +20,8 @@
 
      <!-- Styles -->
       <link rel="stylesheet" href="assets/css/style.css">
+    <!-- pre fetching to reduce load time on background image -->
+     <link rel="preload" as="background-image" fetchpriority="high" href="assets/images/about-landing1.jpg">
 </head>
 <body>
     <!-- Nav -->
@@ -58,7 +60,7 @@
       </nav>
       <!-- Landing -->
       <section class="container">
-        <div id="about-landing" class="col-12">
+        <div id="about-landing" class="col-12" style="background-image: url(assets/images/about-landing1.jpg);">
           <div id="cl-text" class="text-center mx-auto my-auto">           
             <h1><hr>About</h1>
             <p>Welcome to Vagabond MMA Gym</p>
@@ -88,7 +90,7 @@
         <section class="section-about2">
             <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-2 row-col-md-2 about-imgs">
                 <div class="col">
-                    <img src="assets/images/vagabond-about11.jpg" alt="">
+                    <img src="assets/images/vagabond-about1.webp" alt="">
                 </div>
                 <div class="col">
                   <img src="assets/images/vagabond-about22.jpg" alt="" height="100%">

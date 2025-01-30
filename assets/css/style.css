@@ -39,12 +39,9 @@ hr {
     border: none;
     opacity: 1;
 }
-
-
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
-
 }
 #navbar .logo {
     width: 40px;
@@ -190,7 +187,6 @@ footer{
 /* About */
 /* landing styles */
 #about-landing {
-    background-image: url('../images/about-landing.webp');
     min-height: 500px; 
     width: 100%;
     background-attachment: fixed;
@@ -261,7 +257,7 @@ footer{
 /* Classes styles */
 
 #class-landing {
-    background-image: url("../images/classes-landing1.webp");
+    background-image: url('../images/classes-landing1.jpg');
     min-height: 500px; 
     width: 100%;
     background-attachment: fixed;
@@ -555,5 +551,11 @@ input[type="number"] {
     #icons a {
         /* wouldnt apply unless !important was set */
         margin: 0 20px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    #coaches img {
+        width: 150px;
+        height: 150px;
     }
 }
