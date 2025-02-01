@@ -102,6 +102,7 @@ footer{
 #icons a{
     margin: 0 20px;
     color: white;
+    text-decoration: none;
 }
 #icons a:hover {
     color: var(--secondary-color);
