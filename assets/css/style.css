@@ -110,6 +110,9 @@ footer{
 
 /* Home */
 /* classes quicklink styles */
+.ratio {
+    top: 30px;
+}
 #classes-ql {
     background-color: white;
     margin-top: 100px;
