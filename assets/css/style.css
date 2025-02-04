@@ -30,26 +30,16 @@ h1, h2, h3, h4, h5, h6 {
    margin-top: 2rem;
    margin-bottom: 2rem; 
 }
-/* this will be removed soon */
-hr {
-    display: block;
-    width: 10%;
-    height: 6px;
-    margin: 0 auto;
-    background-color: var(--secondary-color);
-    border: none;
-    opacity: 1;
-}
 /* replacement for the HR tag */
 .brdtop-hr {
     border-top: 6px solid var(--secondary-color);
-    padding-top: 10px;
+    padding-top: 8px;
     display: inline-block;
     width: fit-content;
 }
 .brdtop-white {
     border-top: 6px solid white;
-    padding-top: 10px;
+    padding-top: 5px;
     display: inline-block;
     width: fit-content;
 }
@@ -157,10 +147,6 @@ footer{
 #ql-box {
     padding-top: 200px;
 }
-#ql-box hr {
-    /* hr wasnt targeted with the * so attempting fix */
-    margin: 20px auto;
-}
 #ql-box *{
     margin-top: 20px;
 }
@@ -223,9 +209,6 @@ footer{
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: var(--secondary-color);
-}
-.section-about hr {
-    background-color: white;
 }
 .section-about2 {
     padding-bottom: 100px;
@@ -331,16 +314,6 @@ h2[aria-expanded = "true"] .fa-chevron-down {
     background-color: var(--primary-color) !important;
     color: white !important;
 }
-#contact-footer hr {
-    margin-top: 20px;
-    display: block;
-    width: 10%;
-    height: 6px;
-    margin: 0 auto;
-    background-color: white;
-    border: none;
-    opacity: 1;
-}
 
 /* Coaches styles */
 #coach-landing {
@@ -366,16 +339,6 @@ h2[aria-expanded = "true"] .fa-chevron-down {
     padding: 25px 0;
     background-color: var(--secondary-color);
     color: white;
-}
-#coach-intro hr {
-    margin-top: 20px;
-    display: block;
-    width: 10%;
-    height: 6px;
-    margin: 0 auto;
-    background-color: white;
-    border: none;
-    opacity: 1;
 }
 
 #coach-intro .row {
@@ -407,9 +370,6 @@ h2[aria-expanded = "true"] .fa-chevron-down {
     background-color: var(--secondary-color);
     color: white;
     padding: 50px 0;
-}
-#contact-landing hr {
-    background-color: white;
 }
 #form-table button {
     border: 2px solid var(--secondary-color);
@@ -478,11 +438,6 @@ iframe{
     color: white;
     padding: 50px 0;
 }
-
-#schedule-landing hr {
-    width: 10%;
-    background-color: white;
-}
 /* Timetable styles */
 
 #schedule-table {
@@ -528,9 +483,6 @@ iframe{
 
 /* Media queries */
 @media screen and (max-width: 576px) {
-    hr {
-        width: 20%;
-    }
 }
 
 @media screen and (min-width: 1200px) {
