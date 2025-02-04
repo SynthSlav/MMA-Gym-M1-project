@@ -228,6 +228,9 @@ footer{
     max-width: 100%;
 
 }
+#img2 {
+    height: 100%;
+}
 /* Testimonials - About.html  */
 #testimonials {
     margin-left: 25px;
