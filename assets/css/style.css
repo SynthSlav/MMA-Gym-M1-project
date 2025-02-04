@@ -446,41 +446,44 @@ iframe{
 #schedule-table {
     border: 10px solid white;
 }
-#schedule-cell {
+.schedule-cell {
     border: 10px solid white;
     font-size: calc(150px/10);
     white-space: nowrap;
 }
 
-#schedule-cell th, #schedule-cell td{
+.schedule-cell th, .schedule-cell td{
     height: 150px !important;
     width: 150px !important;
     border: 10px solid white;
 }
 /* cell colors */
-#c5 {
-    background-color: var(--table-color-five);
-    color: white;
+
+.c5 {
+    /* After changing to classes instead of ID to avoid validator error
+    the styles were not applying, somehow overriden by the bootstrap build in styles */
+    background-color: var(--table-color-five) !important;
+    color: white !important;
     /* black */
 }
-#c4 {
-    background-color: var(--table-color-four);
-    color: white;
+.c4 {
+    background-color: var(--table-color-four) !important;
+    color: white !important;
     /* gray */
 }
-#c3 {
-    background-color: var(--table-color-three);
-    color: white;
+.c3 {
+    background-color: var(--table-color-three) !important;
+    color: white !important;
     /* yellow */
 }
-#c2 {
-    background-color: var(--table-color-two);
-    color: white;
+.c2 {
+    background-color: var(--table-color-two) !important;
+    color: white !important;
     /* orange */
 }
-#c1 {
-    background-color: var(--table-color-one);
-    color: white;
+.c1 {
+    background-color: var(--table-color-one) !important;
+    color: white !important;
     /* pink */
 }
 
