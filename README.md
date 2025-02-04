@@ -58,9 +58,19 @@ The testing done for this project are as follows:
 - CSS Validator
 - Lighthouse
 <!-- List of info/images to explain validators/lighthouse -->
+### Validator testing and Lighthouse
 
+### Bugs/Style issues
 ## Deployment
 - __The site was deployed to GitHub pages__
 - The repo is public to view and edit.
 - It can be deployed through the settings tab (pages section)
 The live link for the project repo: https://synthslav.github.io/MMA-Gym-M1-project/index.html
+
+## Credits
+- Font imports are taken from Google Font.
+- Images are taken from various sources on Google Images.
+- Home landing video promo is taken from youtube channel Golden Core Studios.
+- Map section code taken from Google Maps.
+- Icons for footer and Classes cards were taken from Font Awesome.
+- Icons for the page tab (and previously navbar logo) were generated using Favicon and their guide.
