@@ -30,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
    margin-top: 2rem;
    margin-bottom: 2rem; 
 }
+/* this will be removed soon */
 hr {
     display: block;
     width: 10%;
@@ -39,8 +40,12 @@ hr {
     border: none;
     opacity: 1;
 }
-button {
-    font-family: "Bebas Neue" !important;
+/* replacement for the HR tag */
+.brdtop-hr {
+    border-top: 6px solid var(--secondary-color);
+    padding-top: 10px;
+    display: inline-block;
+    width: fit-content;
 }
 /* Navbar */
 #navbar {

@@ -61,6 +61,9 @@ The testing done for this project are as follows:
 ### Validator testing and Lighthouse
 
 ### Bugs/Style issues
+
+- HR tag presented errors in validator, so style change was done using border-top
+
 ## Deployment
 - __The site was deployed to GitHub pages__
 - The repo is public to view and edit.
