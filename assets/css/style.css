@@ -47,6 +47,12 @@ hr {
     display: inline-block;
     width: fit-content;
 }
+.brdtop-white {
+    border-top: 6px solid white;
+    padding-top: 10px;
+    display: inline-block;
+    width: fit-content;
+}
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
@@ -130,8 +136,8 @@ footer{
     background-color: var(--secondary-color);
     color: white;
 }
-#classes-ql .card-img-top {
-    height: 188px;
+#classes-ql .img-fluid {
+    height: 200px;
 }
 
 #classes-ql a {
@@ -269,7 +275,6 @@ footer{
 }
 
 /* Classes styles */
-
 #class-landing {
     background-image: url('../images/classes-landing1.jpg');
     min-height: 500px; 
@@ -296,15 +301,12 @@ footer{
     background-color: var(--secondary-color);
     color: white;
 }
-.classes-section .card-img-top {
-    height: 188px;
-}
 .classes-section .card {
     margin-top: 1.5rem;
     border: none;
 }
 .classes-section .img-fluid {
-    max-height: 200px;
+    height: 200px;
 }
 /* code for arrow down (intuitive design to make the user click on the class to open description) taken inspiration from google/stack overflow */
 h2 .fa-chevron-down {
@@ -342,7 +344,7 @@ h2[aria-expanded = "true"] .fa-chevron-down {
 
 /* Coaches styles */
 #coach-landing {
-    background-image: url("../images/coaches-landing1.webp");
+    background-image: url("../images/coaches-landing.webp");
     min-height: 500px; 
     width: 100%;
     background-attachment: fixed;
@@ -584,5 +586,10 @@ iframe{
     #coaches img {
         width: 150px;
         height: 150px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .class-wrap {
+        max-width: 540px;
     }
 }
