@@ -39,9 +39,8 @@ hr {
     border: none;
     opacity: 1;
 }
-.bla {
-    width: 100%;
-    padding: 0;
+button {
+    font-family: "Bebas Neue" !important;
 }
 /* Navbar */
 #navbar {
@@ -338,7 +337,7 @@ h2[aria-expanded = "true"] .fa-chevron-down {
 
 /* Coaches styles */
 #coach-landing {
-    background-image: url("../images/coaches-landing.webp");
+    background-image: url("../images/coaches-landing1.webp");
     min-height: 500px; 
     width: 100%;
     background-attachment: fixed;
