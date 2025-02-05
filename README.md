@@ -20,9 +20,9 @@ This is a web development project built with accessibility, performance and main
 ### Existing Features
 
 __Navigation Bar__
-- The navigation bar is present on all pages of the Vagabond MMA Project
-- It is positioned at the top of the of every page, encouraging intuitive and easy navigation for all important sections like (Home, Classes, Contact etc.)
-- Designed with intended responsiveness, the nav bar is adapting to all screen sizes, featuring a hamburger collapsable menu on smaller screen sizes for a better and cleaner UX.
+  - The navigation bar is present on all pages of the Vagabond MMA Project
+  - It is positioned at the top of the of every page, encouraging intuitive and easy navigation for all important sections like (Home, Classes, Contact etc.)
+  - Designed with intended responsiveness, the nav bar is adapting to all screen sizes, featuring a hamburger collapsable menu on smaller screen sizes for a better and cleaner UX.
 
 ![navbar](assets/media/navbar-snippet.jpg)
 
@@ -51,7 +51,7 @@ __Landing/Hero Sections__
 - The Coaches page has a matching hero landing design as the other two, a quick introductory text to entice the user into checking the range of coaches in the team. This is followed by a responsive row of columns that contains the coaches image, title, and brief description of their expertise. And beneath it all a final section containing the link for contact/sign up page.
 
 - __Timetable and Contact Us__
-- Compared to the previous pages, these two contain a simple landing hero that does not contain media or effects, its purpose its to simply inform the user of the current page he is on.
+  - Compared to the previous pages, these two contain a simple landing hero that does not contain media or effects, its purpose its to simply inform the user of the current page he is on.
 
 __(for UX story look up Classes section)__
 
@@ -62,13 +62,13 @@ __(for UX story look up Classes section)__
 <summary><strong>Contact Story Image</strong> (Click to open)</summary>
 <img src="assets/media/contact-story.jpg">
 </details>
-<br>
+
  - The Contact us page also has a simplistic landing/hero section in the top. It is followed by 2 coulmn section (1 col for sm screens) that features a Free trial sign up form with validation required (upon submitting the user is redirected to a success page to confirm form submission). The same section  also provide crucial info for the user when engaging the page. In the final section there is a GoogleMaps iframe showing the address of the MMA Gym.
  
  - __Footer__
- - The footer section is present on all pages, and its comprised of 2 responsive layout rows.
- - The first row contains a quick  navigation links through the page.
- - The second row contains social media icons for better UX.
+   - The footer section is present on all pages, and its comprised of 2 responsive layout rows.
+   - The first row contains a quick  navigation links through the page.
+   - The second row contains social media icons for better UX.
 <br>
 <details>
 <summary><strong>Footer Image (smaller screens)</strong> (Click to open)</summary>
@@ -76,9 +76,9 @@ __(for UX story look up Classes section)__
 </details>
 
  - __Features left to implement/Design changes__
- - Table containing schedule info can be presented in a different media/style. Or removed and incorporated as a downloadable PDF/JPG.
- - Form completion can involve JS to ensure data processing, and be presented with a Modal.
- - Testimonials section can be restyled into a carousel slider to improve UX.
+   - Table containing schedule info can be presented in a different media/style. Or removed and incorporated as a downloadable PDF/JPG.
+   - Form completion can involve JS to ensure data processing, and be presented with a Modal.
+   - Testimonials section can be restyled into a carousel slider to improve UX.
 
 
 ## Testing
@@ -97,23 +97,25 @@ The testing done for this project are as follows:
 </details>
 
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) Has shown varied results due to factors like internet speed, images, http ports, cdn links and so on. When tested on higher net speed the performance scores are high. Accesibility and Best Practices also have a decent score.
- [More details in screenshot section](#screenshots)
+  - [More details in screenshot section](#screenshots)
 ### Bugs/Style issues
 
 - HR tag presented errors in validator, so style change was done using border-top
 
 ## Deployment
 - __The site was deployed to GitHub pages__
-- The repo is public to view and edit.
-- It can be deployed through the settings tab (pages section)
-The live link for the project repo: https://synthslav.github.io/MMA-Gym-M1-project/index.html
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- The live link for the project repo: [Vagabond MMA Milestone 1 repo](https://synthslav.github.io/MMA-Gym-M1-project/index.html)
 
 ## Credits
-- Font imports are taken from Google Font.
-- Images are taken from various sources on Google Images.
-- Home landing video promo is taken from youtube channel Golden Core Studios.
-- Map section code taken from Google Maps.
-- Icons for footer and Classes cards were taken from Font Awesome.
-- Icons for the page tab (and previously navbar logo) were generated using Favicon and their guide.
+    - Font imports are taken from Google Font.
+    - Images are taken from various sources on Google Images.
+    - Home landing video promo is taken from youtube channel Golden Core Studios.
+    - Map section code taken from Google Maps.
+    - Icons for footer and Classes cards were taken from Font Awesome.
+    - Icons for the page tab (and previously navbar logo) were generated using Favicon and their guide.
 
 ## Screenshots
