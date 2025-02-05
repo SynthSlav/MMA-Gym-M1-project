@@ -119,8 +119,32 @@ The testing done for this project are as follows:
     - Icons for the page tab (and previously navbar logo) were generated using Favicon and their guide.
 
 ## Screenshots
-    - Lighthouse screenshot snippets
+- __Lighthouse screenshot snippets__
 <details>
-<summary><strong></strong> (Click to open)</summary>
-<img src="assets/media/jigsaw-snippet.jpg">
+<summary><strong>Home Lighthouse Scores</strong> (Click to open)</summary>
+<img src="assets/media/home-deployed-lighthouse.jpg">
+</details>
+<details>
+<summary><strong>About Lighthouse Scores</strong> (Click to open)</summary>
+<img src="assets/media/about-lighthouse-deployed.jpg">
+</details>
+<details>
+<summary><strong>Classes Lighthouse Scores</strong> (Click to open)</summary>
+<img src="assets/media/classes-lighthouse-deployed.jpg">
+</details>
+<details>
+<summary><strong>Coaches Lighthouse Scores</strong> (Click to open)</summary>
+<img src="assets/media/coaches-lighthouse-deployed.jpg">
+</details>
+<details>
+<summary><strong>Timetable/Schedule Lighthouse Scores</strong> (Click to open)</summary>
+<img src="assets/media/schedule-lighthouse-deployed.jpg">
+</details>
+<details>
+<summary><strong>Contact Us Lighthouse Scores</strong> (Click to open)</summary>
+<img src="assets/media/contact-lighthouse-deployed.jpg">
+</details>
+<details>
+<summary><strong>Success Lighthouse Scores</strong> (Click to open)</summary>
+<img src="assets/media/success-lighthouse-deployed.jpg">
 </details>

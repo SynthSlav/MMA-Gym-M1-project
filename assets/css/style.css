@@ -360,6 +360,7 @@ h2[aria-expanded = "true"] .fa-chevron-down {
 #coaches img {
     width: 190px;
     height: 190px;
+    object-fit: cover;
 }
 
 #coaches h4 {
