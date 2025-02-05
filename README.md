@@ -101,6 +101,11 @@ The testing done for this project are as follows:
 ### Bugs/Style issues
 
 - HR tag presented errors in validator, so style change was done using border-top
+- Coach card No3 text is covering the footer line separator (future style changes might sort this)
+- Contact columns have different height at certain small gap in screen width (looking for a fix)
+- Google maps iframes has an odd invisible margin probably due googles own iframe code (needs fixing  but doesnt impair design much)
+  - These bugs and styling discrepancies can/will be fixed in the future
+  - For more detailed info check [Bug Screenshots](#screenshots)
 
 ## Deployment
 - __The site was deployed to GitHub pages__
@@ -119,7 +124,7 @@ The testing done for this project are as follows:
     - Icons for the page tab (and previously navbar logo) were generated using Favicon and their guide.
 
 ## Screenshots
-- __Lighthouse screenshot snippets__
+### __Lighthouse screenshot snippets__
 <details>
 <summary><strong>Home Lighthouse Scores</strong> (Click to open)</summary>
 <img src="assets/media/home-deployed-lighthouse.jpg">
@@ -147,4 +152,18 @@ The testing done for this project are as follows:
 <details>
 <summary><strong>Success Lighthouse Scores</strong> (Click to open)</summary>
 <img src="assets/media/success-lighthouse-deployed.jpg">
+</details>
+
+### __Bug/Style issues__
+<details>
+<summary><strong>Contacts column bug/styling issue</strong> (Click to open)</summary>
+<img src="assets/media/contact-column-bug.jpg">
+</details>
+<details>
+<summary><strong>Cooach card3 bug/styling issue</strong> (Click to open)</summary>
+<img src="assets/media/coachcard-bug.jpg">
+</details>
+<details>
+<summary><strong>Google Maps bug/styling issue</strong> (Click to open)</summary>
+<img src="assets/media/gmap-bug.jpg">
 </details>
