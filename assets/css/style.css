@@ -426,8 +426,10 @@ input[type="number"] {
 #map {
     margin-top: 100px;
 }
-iframe{
+#map iframe{
     border: none;
+    width: 100%;
+    height: 500px;
 }
 
 /* Succesifull submission of the form wouldnt have propper vh on lg and xl screens hence the styling */
