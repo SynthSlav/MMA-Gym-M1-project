@@ -11,13 +11,13 @@
     --table-color-one: #C30909;
     --table-color-two: #feac4d;
     --table-color-three: #fcd769;
-    --table-color-four: #464a52;
+    --table-color-four: #565252;
     --table-color-five: #252525;
 }
 /* Global styling */
 body, h1{
     font-family: "Poppins", sans-serif;
-    background-color: #a3a0a0;
+    background-color: var(--table-color-four);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -479,7 +479,7 @@ input[type="number"] {
 }
 .c3 {
     background-color: var(--table-color-three) !important;
-    color: white !important;
+    color: var(--primary-color) !important;
     /* yellow */
 }
 .c2 {
