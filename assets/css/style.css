@@ -7,8 +7,8 @@
     --primary-font: "Poppins", Arial, Verdana, sans-serif;
     --secondary-font: "Bebas Neue", Impact, Arial Black, sans-serif;
     --primary-color: #252525;
-    --secondary-color: #d0987f;
-    --table-color-one: #d0987f;
+    --secondary-color: #C30909;
+    --table-color-one: #C30909;
     --table-color-two: #feac4d;
     --table-color-three: #fcd769;
     --table-color-four: #464a52;
@@ -93,7 +93,7 @@ footer{
 }
 #fnav-links a:hover{
     text-decoration: none;
-    color: #d0987f;
+    color:var(--secondary-color);
 }
 #fnav-links .row {
     margin-right: 0;
@@ -387,7 +387,7 @@ h2[aria-expanded = "true"] .fa-chevron-down {
 #form-table button:hover {
     border: 2px solid var(--primary-color);
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: white;
 }
 
 #thank-you a {
@@ -399,7 +399,7 @@ h2[aria-expanded = "true"] .fa-chevron-down {
 #thank-you a:hover {
     border: 2px solid var(--primary-color);
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: white;
 }
 
 /* Opening times */
